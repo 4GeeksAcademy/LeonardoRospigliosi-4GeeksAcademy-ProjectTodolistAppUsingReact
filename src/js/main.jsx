@@ -10,9 +10,14 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
+// import Eventos from './components/Eventos';
+// import ToDoList from './components/ToDoList';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Home/>
+    {/* <Eventos/> */}
+    {/* <ToDoList/> */}
   </React.StrictMode>,
 )
