@@ -34,4 +34,10 @@ body{
     padding-left: 0;
   }
 
+  .itemsTask{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
   

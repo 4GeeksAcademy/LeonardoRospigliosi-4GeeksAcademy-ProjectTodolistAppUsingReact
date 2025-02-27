@@ -42,6 +42,8 @@ function F_ToDoList() {
             <ul className="no-bullets" width="100%">
                 {listaTareas.map((task, index) => (
                     <li key={index} className="task-item" style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
+                        <div className='itemsTask'>
+                        
                         <span onClick={() => toggleCompletion(index)}>{task.text}</span>
 
                         <button
@@ -51,6 +53,7 @@ function F_ToDoList() {
                         >
                        <span > X</span>  
                         </button>
+                        </div>
                     </li>
                 ))}
             </ul>
